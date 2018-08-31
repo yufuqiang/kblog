@@ -1,4 +1,4 @@
-<?php
+<?php 
 namespace app\uhome\controller;
 use app\common\model\User;
 class Index
