@@ -1,7 +1,8 @@
 <?php 
 namespace app\uhome\controller;
-use app\common\model\User;
-class Index
+use app\uhome\controller\uhomeBase;
+use app\common\model\UserModel;
+class Index extends uhomeBase
 {
     public function index()
     {
@@ -12,4 +13,5 @@ class Index
         $UserM->addAll($data);
         return "uhome";
     }
+    
 }
